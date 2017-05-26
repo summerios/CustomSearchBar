@@ -21,6 +21,7 @@
     CustomSearchBar *customsearchBar = [[CustomSearchBar alloc] initWithFrame:CGRectMake(15,100, self.view.frame.size.width - 30, 40) boardColor:nil placeholderString:@"搜索"];
     customsearchBar.delegate = self;
     [self.view addSubview:customsearchBar];
+    
 }
 
 
